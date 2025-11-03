@@ -159,23 +159,23 @@ body {
   color: #e0b7b3;
   font-size: 24px;
   font-weight: 400;
-  margin-top: 40px;
-  cursor: pointer; /* Добавлено: курсор указателя */
-  transition: all 0.3s ease; /* Добавлено: плавный переход */
+  margin-top: 120px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .hero__scroll:hover {
-  transform: translateY(5px); /* Добавлено: эффект при наведении */
-  color: #fce6d9; /* Добавлено: изменение цвета при наведении */
+  transform: translateY(5px);
+  color: #fce6d9;
 }
 
 .hero__scroll-icon {
   width: 15px;
-  transition: transform 0.3s ease; /* Добавлено: плавная анимация иконки */
+  transition: transform 0.3s ease;
 }
 
 .hero__scroll:hover .hero__scroll-icon {
-  transform: translateY(5px); /* Добавлено: движение иконки при наведении */
+  transform: translateY(5px);
 }
 
 /* О нас */
@@ -354,7 +354,7 @@ body {
 .scroll-animate {
   opacity: 0;
   transform: translateY(30px);
-  transition: all 0.8s ease-out;
+  transition: all 1s ease-out; 
 }
 
 .scroll-animate.animated {
@@ -363,33 +363,32 @@ body {
 }
 
 .advantage-card.scroll-animate:nth-child(1) {
-  transition-delay: 0.1s;
+  transition-delay: 0.2s; 
 }
 
 .advantage-card.scroll-animate:nth-child(2) {
-  transition-delay: 0.2s;
+  transition-delay: 0.4s; 
 }
 
 .advantage-card.scroll-animate:nth-child(3) {
-  transition-delay: 0.3s;
+  transition-delay: 0.6s; 
 }
 
 .advantage-card.scroll-animate:nth-child(4) {
-  transition-delay: 0.4s;
+  transition-delay: 0.8s; 
 }
 
 .package-card.scroll-animate:nth-child(1) {
-  transition-delay: 0.1s;
+  transition-delay: 0.2s; 
 }
 
 .package-card.scroll-animate:nth-child(2) {
-  transition-delay: 0.2s;
+  transition-delay: 0.4s; /* Увеличено с 0.2s */
 }
 
 .package-card.scroll-animate:nth-child(3) {
-  transition-delay: 0.3s;
+  transition-delay: 0.6s; 
 }
-
 html {
   scroll-behavior: smooth;
 }
